@@ -3,6 +3,8 @@ Welcome to PyTorch Tutorials
 
 What's new in PyTorch tutorials?
 
+
+* `Fast Transformer Inference with BetterTransformer <https://pytorch.org/tutorials/intermediate/bettertransformer_tutorial.html?utm_source=whats_new_tutorials&utm_medium=bettertransformer>`__
 * `Introduction to TorchRec <https://pytorch.org/tutorials/intermediate/torchrec_tutorial.html?utm_source=whats_new_tutorials&utm_medium=torchrec>`__
 * `Getting Started with Fully Sharded Data Parallel (FSDP) <https://pytorch.org/tutorials/intermediate/FSDP_tutorial.html?utm_source=whats_new_tutorials&utm_medium=FSDP>`__
 * `Advanced model training with Fully Sharded Data Parallel (FSDP) <https://pytorch.org/tutorials/intermediate/FSDP_adavnced_tutorial.html?utm_source=whats_new_tutorials&utm_medium=FSDP_advanced>`__
@@ -275,6 +277,13 @@ What's new in PyTorch tutorials?
 
 .. Deploying PyTorch Models in Production
 
+.. customcarditem::
+   :header: Fast Transformer Inference with BetterTransformer
+   :card_description: Deploy a Transformer model in production with high performance
+   :image: _static/img/thumbnails/cropped/Deploying-PyTorch-in-Python-via-a-REST-API-with-Flask.png
+   :link: intermediate/bettertransformer_tutorial.html
+   :tags: Production,Transformer,NLP,GPU-Inference
+   
 .. customcarditem::
    :header: Deploying PyTorch in Python via a REST API with Flask
    :card_description: Deploy a PyTorch model using Flask and expose a REST API for model inference using the example of a pretrained DenseNet 121 model which detects the image.
@@ -795,7 +804,7 @@ Additional Resources
    :hidden:
    :caption: Deploying PyTorch Models in Production
 
-   intermediate/flask_rest_api_tutorial
+   intermediate/bettertransformer_tutorial
    beginner/Intro_to_TorchScript_tutorial
    advanced/cpp_export
    advanced/super_resolution_with_onnxruntime
